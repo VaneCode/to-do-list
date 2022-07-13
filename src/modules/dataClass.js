@@ -37,4 +37,18 @@ export default class DataClass {
     // Local storage
     localStorage.setItem('tasks', JSON.stringify(tasks));
   }
+
+  static updateTaskData(task) {
+    const tasks = DataClass.getTasks();
+
+    tasks.forEach((item, i) => {
+      if (item.index === task.index) {
+        tasks[i].description = task.description;
+        tasks[i].completed = task.completed;
+      }
+    });
+
+    // Local storage
+    localStorage.setItem('tasks', JSON.stringify(tasks));
+  }
 }
