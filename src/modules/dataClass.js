@@ -38,13 +38,13 @@ export default class DataClass {
     localStorage.setItem('tasks', JSON.stringify(tasks));
   }
 
-  static updateTaskData(task) {
+  static updateTaskData(description, completed, index) {
     const tasks = DataClass.getTasks();
 
     tasks.forEach((item, i) => {
-      if (item.index === task.index) {
-        tasks[i].description = task.description;
-        tasks[i].completed = task.completed;
+      if (item.index === index) {
+        tasks[i].description = description;
+        tasks[i].completed = completed;
       }
     });
 

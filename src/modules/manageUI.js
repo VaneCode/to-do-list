@@ -32,4 +32,9 @@ const showTasks = () => {
   });
 };
 
+// Funtion to add a new task to to-do list
+const addTaskDiv = (task) => {
+  DataClass.addTaskData(task);
+};
+
 export default showTasks;
