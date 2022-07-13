@@ -1,7 +1,7 @@
-//Import modules
+// Import modules
 import './sass/style.scss';
-import { showTaks } from './modules/manageUI.js';
+import showTasks from './modules/manageUI.js';
 
-window.onload = () =>{
-  showTaks();
+window.onload = () => {
+  showTasks();
 };
