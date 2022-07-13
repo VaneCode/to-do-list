@@ -26,9 +26,18 @@ body {
   display: flex;
   flex-direction: column;
   margin: 2rem 0.3rem;
+  padding: 0.5rem;
   max-width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
 }
 
 section {
   display: block;
 }
+
+/**{
+  outline-style:solid;
+  outline-color: red;
+}*/

@@ -11,7 +11,7 @@ const addTasksLabel = (task) => {
     // Create elements
     const label = document.createElement('label');
 
-    label.classList.add('label-task');
+    label.classList.add('labelTask');
     label.setAttribute('id', task.index);
     label.innerHTML = `
             <input type="checkbox">
