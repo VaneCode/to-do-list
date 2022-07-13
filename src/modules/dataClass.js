@@ -14,14 +14,14 @@ export default class DataClass {
     return tasks;
   }
 
-  static addTaskData(description, completed) {
+  static addTaskData(description) {
     const tasks = DataClass.getTasks();
 
     // Calculate index
     const index = tasks.length + 1;
 
     // Create new task object
-    const newTask = new TaskClass(description, completed, index);
+    const newTask = new TaskClass(description, false, index);
     // Add the new task object to the tasks array
     tasks.push(newTask);
     localStorage.setItem('tasks', JSON.stringify(tasks));
@@ -30,6 +30,10 @@ export default class DataClass {
   static removeTaskData(i) {
     let tasks = DataClass.getTasks();
     tasks = tasks.filter((taks) => Number(taks.index) !== Number(i));
+    // Update remain items indexes
+    for(let j=i; j<taks.length; j += 1){
+
+    }
     // Local storage
     localStorage.setItem('tasks', JSON.stringify(tasks));
   }
