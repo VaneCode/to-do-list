@@ -1,3 +1,7 @@
 //Import modules
 import './sass/style.scss';
-import TaskClass from './modules/taskClass.js';
+import { showTaks } from './modules/manageUI.js';
+
+window.onload = () =>{
+  showTaks();
+};
