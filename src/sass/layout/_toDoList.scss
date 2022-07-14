@@ -1,7 +1,6 @@
 .generalDiv {
   display: flex;
   flex-direction: column;
-  margin: 2rem 0.3rem;
   max-width: 100%;
   align-items: center;
   justify-content: center;
@@ -19,7 +18,7 @@
 }
 
 .div-container {
-  background-color: var(--orange-transparent);
+  background-color: var(--forest-color);
   border-radius: 0.1rem;
   box-shadow: 0 0 1.5rem 0.3rem rgba(0, 0, 0, 0.3);
 }
@@ -27,7 +26,7 @@
 .title {
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: space-between;
   background-color: var(--white-color);
   padding: 0.5rem;
   border-radius: 0.7rem;
@@ -35,10 +34,17 @@
   width: 100%;
 
   p {
-    color: var(--orange-color);
+    color: var(--papaya-color);
     text-align: left;
     font-size: 1rem;
+    font-style: bold;
   }
+}
+
+small{
+  width: 100%;
+  font-size: 0.8rem;
+  color: var(--white-color);
 }
 
 .addTask {
