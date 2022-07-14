@@ -10,7 +10,6 @@ const divToDoList = document.querySelector('#toDoList');
 const addTasksLabel = (task) => {
   // Create elements
   const label = document.createElement('label');
-
   label.classList.add('labelTask');
   label.setAttribute('id', task.index);
   label.innerHTML = `
@@ -19,7 +18,6 @@ const addTasksLabel = (task) => {
             <input type="hidden" value="${task.index}"
             <button id="addTaskBtn"><i class="fa-solid fa-square-minus"></i></button>
         `;
-
   divToDoList.appendChild(label);
 };
 

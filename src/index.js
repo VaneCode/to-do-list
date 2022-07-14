@@ -1,6 +1,7 @@
 // Import modules
 import './sass/style.scss';
 import * as manageUI from './modules/manageUI.js';
+import { DateTime } from './modules/luxon.min.js';
 
 // -------------------DOM ELEMENTS-------------------- //
 const newTaskInp = document.getElementById('newTaskInp');
@@ -23,5 +24,9 @@ addTaskBtn.addEventListener('click', () => {
 });
 
 window.onload = () => {
+  // Show current time
+  const dateP = document.querySelector('.date');
+  const currentDate = DateTime.now();
+  dateP.textContent = `${currentDate.toLocaleString(DateTime.DATETIME_MED)}`;
   manageUI.showTasks();
 };

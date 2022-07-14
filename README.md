@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project name
+# To do list
 
-> Project description
+> This is a web tool to organize the task for the day. It allows to add a new task, mark a task as completed, delete the completed taks, and clean all tasks.
 
 ## Built With
 
@@ -26,25 +26,18 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 
-- Open the [Repository Link](https://github.com/VaneCode/art-gallery) of this project in GitHub.
+- Open the [Repository Link](https://github.com/VaneCode/to-do-list) of this project in GitHub.
 
 ### Install
 
 - Clone the repository on your local machine, using this command:
 
-git clone https://github.com/VaneCode/art-gallery.git
+git clone https://github.com/VaneCode/to-do-list.git
 
 
 ## Authors
 
 👤 **Vanessa Bonito**
-
-- GitHub: [@githubhandle](https://github.com/VaneCode)
-- Twitter: [@twitterhandle](https://twitter.com/BonitoNarvaez)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/vanessa-bonito-narv%C3%A1ez-6681941b5/)
-
-
-**Author name**
 
 - GitHub: [@githubhandle](https://github.com/VaneCode)
 - Twitter: [@twitterhandle](https://twitter.com/BonitoNarvaez)
