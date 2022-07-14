@@ -5,7 +5,7 @@ export default class DataClass {
   static getTasks() {
     let tasks = [];
     // Local storage
-    if (localStorage.getItem('taks')) {
+    if (localStorage.getItem('tasks')) {
       tasks = JSON.parse(localStorage.getItem('tasks'));
     } else {
       localStorage.setItem('tasks', JSON.stringify(tasks));
@@ -38,16 +38,10 @@ export default class DataClass {
     localStorage.setItem('tasks', JSON.stringify(tasks));
   }
 
-  static updateTaskData(description, completed, index) {
+  static updateTaskDespData(description, index) {
     const tasks = DataClass.getTasks();
 
-    tasks.forEach((item, i) => {
-      if (item.index === index) {
-        tasks[i].description = description;
-        tasks[i].completed = completed;
-      }
-    });
-
+    tasks[index].description = description;
     // Local storage
     localStorage.setItem('tasks', JSON.stringify(tasks));
   }
