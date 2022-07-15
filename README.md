@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://vanecode.github.io/art-gallery/)
+[Live Demo Link](https://vanecode.github.io/to-do-list/dist/)
 
 ## Getting Started
 

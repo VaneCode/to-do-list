@@ -1,8 +1,7 @@
-import DataClass from "./dataClass.js";
-import show from "./show.js";
+import DataClass from './dataClass.js';
+import show from './show.js';
 // Method to update the task's description
 const updateTaskDescription = (index, description) => {
- console.log(index);
   DataClass.updateTaskDescriptionData(description, index);
   // Refresh the toDoList in the UI
   show();

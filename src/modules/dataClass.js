@@ -16,7 +16,7 @@ export default class DataClass {
 
   static addTaskData(description) {
     const tasks = DataClass.getTasks();
-  
+
     // Create new task object
     const newTask = new TaskClass(description, false, tasks.length);
     // Add the new task object to the tasks array
@@ -45,7 +45,7 @@ export default class DataClass {
 
   static updateTaskCompletedData(completed, index) {
     const tasks = DataClass.getTasks();
-  
+
     tasks[index].completed = completed;
     // Local storage
     localStorage.setItem('tasks', JSON.stringify(tasks));
