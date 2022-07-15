@@ -31,8 +31,8 @@ export default class DataClass {
     let tasks = DataClass.getTasks();
     tasks = tasks.filter((taks) => Number(taks.index) !== Number(i));
     // Update remain items indexes
-    for (let j = i; j < tasks.length; j += 1) {
-      tasks[j].index -= 1;
+    for (let i = 0; i < tasks.length; i += 1) {
+      tasks[i].index = i;
     }
     // Local storage
     localStorage.setItem('tasks', JSON.stringify(tasks));
