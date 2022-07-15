@@ -14,6 +14,7 @@ export default class AddDynamic {
 
     const checkbox = document.createElement('input');
     checkbox.setAttribute('type', 'checkbox');
+    checkbox.setAttribute('class', 'check');
     checkbox.checked = task.completed;
 
     const inpDescription = document.createElement('input');
@@ -31,18 +32,5 @@ export default class AddDynamic {
     label.appendChild(inpDescription);
     label.appendChild(btnDelete);
     divToDoList.appendChild(label);
-
-    // Add listeners
-    /* btnDelete.addEventListener('click', () => {
-      removeTask(task.index);
-    });
-
-    checkbox.addEventListener('click', () => {
-      updateTaskCompleted(task.index, label, checkbox);
-    });
-
-    inpDescription.addEventListener('change', (e) => {
-      updateTaskDescription(task.index, e.target.value);
-    }); */
   };
 }

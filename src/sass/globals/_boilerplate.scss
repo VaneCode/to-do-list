@@ -22,8 +22,6 @@ body {
   line-height: 1.5;
 }
 
-
-
 .div-container {
   display: flex;
   flex-direction: column;
@@ -38,6 +36,7 @@ body {
 section {
   display: block;
   width: 95vw;
+
   @media all and (min-width: 768px) {
     width: 60vw;
   }
