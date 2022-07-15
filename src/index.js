@@ -28,15 +28,6 @@ deleteAllBtn.addEventListener('click', () => {
   show();
 });
 
-divToDoList.addEventListener('click', (e) => {
-  console.log('I am here');
-  console.log(e.target.parentElement.id);
-  if (e.target.tagName === 'BUTTON') {
-    console.log(e.target.parentElement.id);
-    removeTask(e.target.parentElement.id);
-  }
-});
-
 window.addEventListener('load', () => {
   // Show current time
   const dateP = document.querySelector('.date');

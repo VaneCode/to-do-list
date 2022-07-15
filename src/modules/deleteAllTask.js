@@ -1,4 +1,3 @@
-// Import modules // 
 import DataClass from './dataClass.js';
 
 const deleteAllTask = () => {

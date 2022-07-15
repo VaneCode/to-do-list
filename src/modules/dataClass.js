@@ -16,12 +16,9 @@ export default class DataClass {
 
   static addTaskData(description) {
     const tasks = DataClass.getTasks();
-
-    // Calculate index
-    const index = tasks.length + 1;
-
+  
     // Create new task object
-    const newTask = new TaskClass(description, false, index);
+    const newTask = new TaskClass(description, false, tasks.length);
     // Add the new task object to the tasks array
     tasks.push(newTask);
     localStorage.setItem('tasks', JSON.stringify(tasks));
@@ -38,10 +35,18 @@ export default class DataClass {
     localStorage.setItem('tasks', JSON.stringify(tasks));
   }
 
-  static updateTaskDespData(description, index) {
+  static updateTaskDescriptionData(description, index) {
     const tasks = DataClass.getTasks();
 
     tasks[index].description = description;
+    // Local storage
+    localStorage.setItem('tasks', JSON.stringify(tasks));
+  }
+
+  static updateTaskCompletedData(completed, index) {
+    const tasks = DataClass.getTasks();
+  
+    tasks[index].completed = completed;
     // Local storage
     localStorage.setItem('tasks', JSON.stringify(tasks));
   }
