@@ -27,10 +27,10 @@ export default class AddDynamic {
     icon.setAttribute('class', 'fa-solid fa-trash');
     btnDelete.appendChild(icon);
 
-    btnDelete.addEventListener('click', () => {
+    /*btnDelete.addEventListener('click', () => {
       // Delete the task in the storage
       DataClass.removeTaskData(task.index);
-    });
+    });*/
 
     label.appendChild(checkbox);
     label.appendChild(inpDescription);
