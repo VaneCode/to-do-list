@@ -27,7 +27,7 @@ newTaskInp.addEventListener('keypress', (event) => {
 
 addTaskBtn.addEventListener('click', () => {
   addTaskUI();
-  getElements();
+  // getElements();
 });
 
 deleteAllBtn.addEventListener('click', () => {
@@ -35,13 +35,14 @@ deleteAllBtn.addEventListener('click', () => {
   show();
 });
 
-const addEventEditCheck = (checks) => {
+/* const addEventEditCheck = (checks) => {
   console.log('Entre addEventEditCheck');
   console.log(checks);
   checks.forEach((check) => {
     check.addEventListener('click', (e) => {
       updateTaskCompleted(e.target.parentElement.id, e.target.parentElement, e.target);
-      getElements();
+      //getElements();
+      document.location.reload();
     });
   });
 };
@@ -52,7 +53,8 @@ const addEventEditDesc = (descriptionInps) => {
   descriptionInps.forEach((input) => {
     input.addEventListener('change', (e) => {
       updateTaskDescription(e.target.parentElement.id, e.target.value);
-      getElements();
+      //getElements();
+      document.location.reload();
     });
   });
 };
@@ -62,8 +64,9 @@ const addEventDelete = (deleteTaskBtns) => {
   console.log(deleteTaskBtns);
   deleteTaskBtns.forEach((button) => {
     button.addEventListener('click', (e) => {
-      removeTask(e.target.id);
-      getElements();
+      removeTask(e.target.parentElement.id);
+      //getElements();
+      document.location.reload();
     });
   });
 };
@@ -72,16 +75,16 @@ const getElements = () => {
    // Edit one task's completed
    const checks = document.querySelectorAll('.check');
    addEventEditCheck(checks);
- 
+
    // Edit one task's description
    const descriptionInps = document.querySelectorAll('.inputDescription');
    addEventEditDesc(descriptionInps);
- 
+
    // Delete one task
    const deleteTaskBtns = document.querySelectorAll('.deleteBtn');
    addEventDelete(deleteTaskBtns);
 
-};
+}; */
 
 window.addEventListener('load', () => {
   // Show current time
@@ -91,18 +94,17 @@ window.addEventListener('load', () => {
 
   // Show task
   show();
+
+  /*
    // Edit one task's completed
    const checks = document.querySelectorAll('.check');
    addEventEditCheck(checks);
- 
+
    // Edit one task's description
    const descriptionInps = document.querySelectorAll('.inputDescription');
    addEventEditDesc(descriptionInps);
- 
+
    // Delete one task
    const deleteTaskBtns = document.querySelectorAll('.deleteBtn');
-   addEventDelete(deleteTaskBtns);
-  
+   addEventDelete(deleteTaskBtns); */
 });
-
-
