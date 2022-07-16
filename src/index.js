@@ -27,6 +27,7 @@ newTaskInp.addEventListener('keypress', (event) => {
 
 addTaskBtn.addEventListener('click', () => {
   addTaskUI();
+  getElements();
 });
 
 deleteAllBtn.addEventListener('click', () => {
@@ -35,27 +36,51 @@ deleteAllBtn.addEventListener('click', () => {
 });
 
 const addEventEditCheck = (checks) => {
+  console.log('Entre addEventEditCheck');
+  console.log(checks);
   checks.forEach((check) => {
     check.addEventListener('click', (e) => {
       updateTaskCompleted(e.target.parentElement.id, e.target.parentElement, e.target);
+      getElements();
     });
   });
 };
 
 const addEventEditDesc = (descriptionInps) => {
+  console.log('Entre editar');
+  console.log(descriptionInps);
   descriptionInps.forEach((input) => {
     input.addEventListener('change', (e) => {
       updateTaskDescription(e.target.parentElement.id, e.target.value);
+      getElements();
     });
   });
 };
 
 const addEventDelete = (deleteTaskBtns) => {
+  console.log('Entre borrar');
+  console.log(deleteTaskBtns);
   deleteTaskBtns.forEach((button) => {
     button.addEventListener('click', (e) => {
       removeTask(e.target.id);
+      getElements();
     });
   });
+};
+
+const getElements = () => {
+   // Edit one task's completed
+   const checks = document.querySelectorAll('.check');
+   addEventEditCheck(checks);
+ 
+   // Edit one task's description
+   const descriptionInps = document.querySelectorAll('.inputDescription');
+   addEventEditDesc(descriptionInps);
+ 
+   // Delete one task
+   const deleteTaskBtns = document.querySelectorAll('.deleteBtn');
+   addEventDelete(deleteTaskBtns);
+
 };
 
 window.addEventListener('load', () => {
@@ -66,7 +91,24 @@ window.addEventListener('load', () => {
 
   // Show task
   show();
+   // Edit one task's completed
+   const checks = document.querySelectorAll('.check');
+   addEventEditCheck(checks);
+ 
+   // Edit one task's description
+   const descriptionInps = document.querySelectorAll('.inputDescription');
+   addEventEditDesc(descriptionInps);
+ 
+   // Delete one task
+   const deleteTaskBtns = document.querySelectorAll('.deleteBtn');
+   addEventDelete(deleteTaskBtns);
+  
+});
 
+/*document.onreadystatechange = function () {
+  if (document.readyState == "complete") {
+  // document is ready. Do your stuff here
+  console.log('document is ready. I can sleep now');
   // Edit one task's completed
   const checks = document.querySelectorAll('.check');
   addEventEditCheck(checks);
@@ -78,4 +120,8 @@ window.addEventListener('load', () => {
   // Delete one task
   const deleteTaskBtns = document.querySelectorAll('.deleteBtn');
   addEventDelete(deleteTaskBtns);
-});
+}
+}*/
+
+
+
