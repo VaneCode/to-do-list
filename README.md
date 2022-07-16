@@ -11,10 +11,6 @@
 - Visual Studio
 - JavaScript
 
-## Live Demo
-
-[Live Demo Link](https://vanecode.github.io/to-do-list/dist/)
-
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
