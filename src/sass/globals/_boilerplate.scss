@@ -35,6 +35,11 @@ body {
 
 section {
   display: block;
+  width: 95vw;
+
+  @media all and (min-width: 768px) {
+    width: 60vw;
+  }
 }
 
 /**  {

@@ -1,3 +1,11 @@
 button {
+  color: var(--papaya-color);
+  background: transparent;
+  font-weight: bold;
+  cursor: pointer;
   border: none;
+}
+
+#deleteAllCompleted {
+  color: var(--white-color);
 }

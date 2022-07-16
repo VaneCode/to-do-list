@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/acbe49dba1.js" crossorigin="anonymous"></script>
     <title>To do list</title>
 </head>
 
@@ -12,12 +13,21 @@
         <section>
             <div class="div-container">
                 <div class="title">
-                    <a href="#">
-                        <p>Todady's to do</p>
-                    </a>
+                    <div>
+                        <a href="#index.html">
+                            <p>Todady's to do</p>
+                        </a>
+                    </div>
+                    <div>
+                        <button id="deleteAllBtn" type="button">Clear all</button>
+                    </div>            
+                </div>
+                <div>
+                    <small class="date"></small>
                 </div>
                 <div class="addTask">
-                    <input id="newTask" type="text" placeholder="Add to do list">
+                    <input id="newTaskInp" type="text" placeholder="Add to do list">
+                    <button id="addTaskBtn" type="button"><i class="fa-solid fa-plus"></i></button>
                 </div>
 
                 <div id="toDoList">
@@ -25,7 +35,7 @@
                 </div>
 
                 <div class="cleanDiv">
-                    <p>Clear all completed</p>
+                    <button id="deleteAllCompleted" type="button">Clear all completed</button>
                 </div>
 
             </div>
