@@ -105,23 +105,4 @@ window.addEventListener('load', () => {
   
 });
 
-/*document.onreadystatechange = function () {
-  if (document.readyState == "complete") {
-  // document is ready. Do your stuff here
-  console.log('document is ready. I can sleep now');
-  // Edit one task's completed
-  const checks = document.querySelectorAll('.check');
-  addEventEditCheck(checks);
-
-  // Edit one task's description
-  const descriptionInps = document.querySelectorAll('.inputDescription');
-  addEventEditDesc(descriptionInps);
-
-  // Delete one task
-  const deleteTaskBtns = document.querySelectorAll('.deleteBtn');
-  addEventDelete(deleteTaskBtns);
-}
-}*/
-
-
 
