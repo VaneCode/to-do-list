@@ -28,14 +28,24 @@ To get a local copy up and running follow these simple example steps.
 
 - Open the [Repository Link](https://github.com/VaneCode/to-do-list) of this project in GitHub.
 
-### Install
+### To clone the repository
 
 - Clone the repository on your local machine, using this command:
 
 git clone https://github.com/VaneCode/to-do-list.git
 
+### To enter Directory
 
-## Authors
+- cd ToDoList
+
+### To run project on local server
+
+- npm start
+
+### To open project with vs code
+
+- code
+## Author
 
 👤 **Vanessa Bonito**
 
