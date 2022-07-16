@@ -3,8 +3,9 @@ import './sass/style.scss';
 import show from './modules/show.js';
 import addTask from './modules/addTask.js';
 import deleteAllTask from './modules/deleteAllTask.js';
+import deleteAllCompleted from './modules/deleteAllCompleted.js';
 import {
-  newTaskInp, addTaskBtn, deleteAllBtn,
+  newTaskInp, addTaskBtn, deleteAllBtn, deleteAllCompletedBtn,
 } from './modules/domElements.js';
 import { DateTime } from './modules/luxon.min.js';
 
@@ -29,6 +30,11 @@ addTaskBtn.addEventListener('click', () => {
 
 deleteAllBtn.addEventListener('click', () => {
   deleteAllTask();
+  show();
+});
+
+deleteAllCompletedBtn.addEventListener('click', () => {
+  deleteAllCompleted();
   show();
 });
 

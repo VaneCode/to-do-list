@@ -37,13 +37,11 @@ export default class AddDynamic {
     // Add event listeners
     btnDelete.addEventListener('click', () => {
       DataClass.removeTaskData(task.index);
-      // getElements();
       document.location.reload();
     });
 
     inpDescription.addEventListener('change', () => {
       DataClass.updateTaskDescriptionData(inpDescription.value, task.index);
-      // getElements();
       document.location.reload();
     });
 
@@ -55,7 +53,6 @@ export default class AddDynamic {
         DataClass.updateTaskCompletedData(false, task.index);
         label.classList.remove('completedTask');
       }
-      // getElements();
       document.location.reload();
     });
   };
