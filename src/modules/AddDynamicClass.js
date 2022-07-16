@@ -1,6 +1,7 @@
 // --------------Import--------------------------//
 import DataClass from './dataClass.js';
 import { divToDoList } from './domElements.js';
+
 export default class AddDynamic {
   // Method to add a label element to div toDoList
   static addTaskLabel = (task) => {
@@ -36,6 +37,24 @@ export default class AddDynamic {
     // Add event listeners
     btnDelete.addEventListener('click', () => {
       DataClass.removeTaskData(task.index);
+      // getElements();
+      document.location.reload();
+    });
+
+    inpDescription.addEventListener('change', () => {
+      DataClass.updateTaskDescriptionData(inpDescription.value, task.index);
+      // getElements();
+      document.location.reload();
+    });
+
+    checkbox.addEventListener('click', () => {
+      if (checkbox.checked) {
+        DataClass.updateTaskCompletedData(true, task.index);
+        label.classList.add('completedTask');
+      } else {
+        DataClass.updateTaskCompletedData(false, task.index);
+        label.classList.remove('completedTask');
+      }
       // getElements();
       document.location.reload();
     });
