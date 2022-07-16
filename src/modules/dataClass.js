@@ -45,7 +45,6 @@ export default class DataClass {
 
   static updateTaskCompletedData(completed, index) {
     const tasks = DataClass.getTasks();
-
     tasks[index].completed = completed;
     // Local storage
     localStorage.setItem('tasks', JSON.stringify(tasks));
