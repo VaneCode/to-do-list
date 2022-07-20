@@ -4,7 +4,7 @@
   "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "webpack serve --open",
     "build": "webpack"
   },
@@ -28,6 +28,7 @@
     "eslint-plugin-react": "^7.30.0",
     "hint": "^6.2.0",
     "html-webpack-plugin": "^5.5.0",
+    "jest-webpack": "^0.5.1",
     "node-sass": "^7.0.1",
     "sass": "^1.53.0",
     "sass-loader": "^13.0.2",
