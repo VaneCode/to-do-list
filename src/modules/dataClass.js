@@ -14,6 +14,10 @@ export default class DataClass {
     return tasks;
   }
 
+  static setTasks(tasks) {
+    localStorage.setItem('tasks', JSON.stringify(tasks));
+  }
+
   static addTaskData(description) {
     const tasks = DataClass.getTasks();
 
@@ -37,7 +41,6 @@ export default class DataClass {
 
   static updateTaskDescriptionData(description, index) {
     const tasks = DataClass.getTasks();
-
     tasks[index].description = description;
     // Local storage
     localStorage.setItem('tasks', JSON.stringify(tasks));
