@@ -32,8 +32,8 @@ export default class AddDynamic {
     label.appendChild(checkbox);
     label.appendChild(inpDescription);
     label.appendChild(btnDelete);
-    divToDoList.appendChild(label);
-
+    document.querySelector('#toDoList').appendChild(label);
+    
     // Add event listeners
     btnDelete.addEventListener('click', () => {
       DataClass.removeTaskData(task.index);
