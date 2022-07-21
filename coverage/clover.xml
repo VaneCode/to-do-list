@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1658440387433" clover="3.2.0">
-  <project timestamp="1658440387433" name="All files">
-    <metrics statements="69" coveredstatements="51" conditionals="6" coveredconditionals="4" methods="15" coveredmethods="9" elements="90" coveredelements="64" complexity="0" loc="69" ncloc="69" packages="1" files="5" classes="5"/>
+<coverage generated="1658440996486" clover="3.2.0">
+  <project timestamp="1658440996486" name="All files">
+    <metrics statements="69" coveredstatements="54" conditionals="6" coveredconditionals="4" methods="15" coveredmethods="10" elements="90" coveredelements="68" complexity="0" loc="69" ncloc="69" packages="1" files="5" classes="5"/>
     <file name="AddDynamicClass.js" path="/Users/waliddaudzai/Desktop/Books Project Microerse/Vanessa's Project/src/modules/AddDynamicClass.js">
       <metrics statements="35" coveredstatements="25" conditionals="4" coveredconditionals="2" methods="4" coveredmethods="1"/>
       <line num="6" count="2" type="stmt"/>
-      <line num="8" count="3" type="stmt"/>
-      <line num="9" count="3" type="stmt"/>
-      <line num="10" count="3" type="stmt"/>
-      <line num="11" count="3" type="cond" truecount="2" falsecount="0"/>
-      <line num="12" count="2" type="stmt"/>
-      <line num="15" count="3" type="stmt"/>
-      <line num="16" count="3" type="stmt"/>
-      <line num="17" count="3" type="stmt"/>
-      <line num="18" count="3" type="stmt"/>
-      <line num="20" count="3" type="stmt"/>
-      <line num="21" count="3" type="stmt"/>
-      <line num="22" count="3" type="stmt"/>
-      <line num="24" count="3" type="stmt"/>
-      <line num="25" count="3" type="stmt"/>
-      <line num="26" count="3" type="stmt"/>
-      <line num="27" count="3" type="stmt"/>
-      <line num="28" count="3" type="stmt"/>
-      <line num="31" count="3" type="stmt"/>
-      <line num="32" count="3" type="stmt"/>
-      <line num="33" count="3" type="stmt"/>
-      <line num="34" count="3" type="stmt"/>
-      <line num="37" count="3" type="stmt"/>
+      <line num="8" count="5" type="stmt"/>
+      <line num="9" count="5" type="stmt"/>
+      <line num="10" count="5" type="stmt"/>
+      <line num="11" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="12" count="3" type="stmt"/>
+      <line num="15" count="5" type="stmt"/>
+      <line num="16" count="5" type="stmt"/>
+      <line num="17" count="5" type="stmt"/>
+      <line num="18" count="5" type="stmt"/>
+      <line num="20" count="5" type="stmt"/>
+      <line num="21" count="5" type="stmt"/>
+      <line num="22" count="5" type="stmt"/>
+      <line num="24" count="5" type="stmt"/>
+      <line num="25" count="5" type="stmt"/>
+      <line num="26" count="5" type="stmt"/>
+      <line num="27" count="5" type="stmt"/>
+      <line num="28" count="5" type="stmt"/>
+      <line num="31" count="5" type="stmt"/>
+      <line num="32" count="5" type="stmt"/>
+      <line num="33" count="5" type="stmt"/>
+      <line num="34" count="5" type="stmt"/>
+      <line num="37" count="5" type="stmt"/>
       <line num="38" count="0" type="stmt"/>
       <line num="39" count="0" type="stmt"/>
-      <line num="42" count="3" type="stmt"/>
+      <line num="42" count="5" type="stmt"/>
       <line num="43" count="0" type="stmt"/>
       <line num="44" count="0" type="stmt"/>
-      <line num="47" count="3" type="stmt"/>
+      <line num="47" count="5" type="stmt"/>
       <line num="48" count="0" type="cond" truecount="0" falsecount="2"/>
       <line num="49" count="0" type="stmt"/>
       <line num="50" count="0" type="stmt"/>
@@ -43,18 +43,18 @@
     <file name="cleanElement.js" path="/Users/waliddaudzai/Desktop/Books Project Microerse/Vanessa's Project/src/modules/cleanElement.js">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="1" count="2" type="stmt"/>
-      <line num="2" count="2" type="stmt"/>
-      <line num="3" count="2" type="stmt"/>
-      <line num="4" count="2" type="stmt"/>
+      <line num="2" count="3" type="stmt"/>
+      <line num="3" count="3" type="stmt"/>
+      <line num="4" count="3" type="stmt"/>
     </file>
     <file name="dataClass.js" path="/Users/waliddaudzai/Desktop/Books Project Microerse/Vanessa's Project/src/modules/dataClass.js">
-      <metrics statements="22" coveredstatements="14" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="4"/>
-      <line num="6" count="4" type="stmt"/>
-      <line num="8" count="4" type="cond" truecount="2" falsecount="0"/>
-      <line num="9" count="3" type="stmt"/>
+      <metrics statements="22" coveredstatements="17" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="5"/>
+      <line num="6" count="6" type="stmt"/>
+      <line num="8" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="9" count="5" type="stmt"/>
       <line num="11" count="1" type="stmt"/>
-      <line num="14" count="4" type="stmt"/>
-      <line num="17" count="1" type="stmt"/>
+      <line num="14" count="6" type="stmt"/>
+      <line num="17" count="2" type="stmt"/>
       <line num="21" count="0" type="stmt"/>
       <line num="24" count="0" type="stmt"/>
       <line num="26" count="0" type="stmt"/>
@@ -68,17 +68,17 @@
       <line num="43" count="1" type="stmt"/>
       <line num="44" count="1" type="stmt"/>
       <line num="46" count="1" type="stmt"/>
-      <line num="50" count="0" type="stmt"/>
-      <line num="51" count="0" type="stmt"/>
-      <line num="53" count="0" type="stmt"/>
+      <line num="50" count="1" type="stmt"/>
+      <line num="51" count="1" type="stmt"/>
+      <line num="53" count="1" type="stmt"/>
     </file>
     <file name="show.js" path="/Users/waliddaudzai/Desktop/Books Project Microerse/Vanessa's Project/src/modules/show.js">
       <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <line num="7" count="2" type="stmt"/>
-      <line num="9" count="2" type="stmt"/>
-      <line num="11" count="2" type="stmt"/>
-      <line num="12" count="2" type="stmt"/>
-      <line num="13" count="2" type="stmt"/>
+      <line num="9" count="3" type="stmt"/>
+      <line num="11" count="3" type="stmt"/>
+      <line num="12" count="3" type="stmt"/>
+      <line num="13" count="4" type="stmt"/>
     </file>
     <file name="taskClass.js" path="/Users/waliddaudzai/Desktop/Books Project Microerse/Vanessa's Project/src/modules/taskClass.js">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
