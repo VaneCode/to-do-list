@@ -1,6 +1,5 @@
 // --------------Import--------------------------//
 import DataClass from './dataClass.js';
-import { divToDoList } from './domElements.js';
 
 export default class AddDynamic {
   // Method to add a label element to div toDoList
@@ -32,7 +31,7 @@ export default class AddDynamic {
     label.appendChild(checkbox);
     label.appendChild(inpDescription);
     label.appendChild(btnDelete);
-    divToDoList.appendChild(label);
+    document.querySelector('#toDoList').appendChild(label);
 
     // Add event listeners
     btnDelete.addEventListener('click', () => {

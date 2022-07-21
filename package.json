@@ -4,7 +4,7 @@
   "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --coverage",
     "start": "webpack serve --open",
     "build": "webpack"
   },
@@ -20,6 +20,10 @@
   },
   "homepage": "https://github.com/VaneCode/helloMicroverse#readme",
   "devDependencies": {
+    "@babel/core": "^7.18.9",
+    "@babel/plugin-transform-modules-commonjs": "^7.18.6",
+    "@babel/preset-env": "^7.18.9",
+    "@babel/preset-react": "^7.18.6",
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.7.1",
     "eslint": "^7.32.0",
@@ -28,6 +32,7 @@
     "eslint-plugin-react": "^7.30.0",
     "hint": "^6.2.0",
     "html-webpack-plugin": "^5.5.0",
+    "jest-webpack": "^0.5.1",
     "node-sass": "^7.0.1",
     "sass": "^1.53.0",
     "sass-loader": "^13.0.2",
@@ -43,6 +48,7 @@
   },
   "dependencies": {
     "eslint-config-airbnb": "^19.0.4",
+    "jest-environment-jsdom": "^28.1.3",
     "loadsh": "^0.0.4",
     "lodash": "^4.17.21",
     "webpack-server": "^0.1.2"
