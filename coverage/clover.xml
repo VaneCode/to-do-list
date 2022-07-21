@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1658442216836" clover="3.2.0">
-  <project timestamp="1658442216836" name="All files">
-    <metrics statements="75" coveredstatements="60" conditionals="6" coveredconditionals="4" methods="17" coveredmethods="12" elements="98" coveredelements="76" complexity="0" loc="75" ncloc="75" packages="1" files="6" classes="6"/>
-    <file name="AddDynamicClass.js" path="H:\Microverse\to-do-list-testing\to-do-list\src\modules\AddDynamicClass.js">
+<coverage generated="1658442389234" clover="3.2.0">
+  <project timestamp="1658442389234" name="All files">
+    <metrics statements="74" coveredstatements="59" conditionals="6" coveredconditionals="4" methods="17" coveredmethods="12" elements="97" coveredelements="75" complexity="0" loc="74" ncloc="74" packages="1" files="6" classes="6"/>
+    <file name="AddDynamicClass.js" path="/Users/waliddaudzai/Desktop/Books Project Microerse/Vanessa's Project/src/modules/AddDynamicClass.js">
       <metrics statements="35" coveredstatements="25" conditionals="4" coveredconditionals="2" methods="4" coveredmethods="1"/>
       <line num="6" count="2" type="stmt"/>
       <line num="8" count="6" type="stmt"/>
@@ -40,15 +40,15 @@
       <line num="53" count="0" type="stmt"/>
       <line num="55" count="0" type="stmt"/>
     </file>
-    <file name="cleanElement.js" path="H:\Microverse\to-do-list-testing\to-do-list\src\modules\cleanElement.js">
+    <file name="cleanElement.js" path="/Users/waliddaudzai/Desktop/Books Project Microerse/Vanessa's Project/src/modules/cleanElement.js">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="1" count="2" type="stmt"/>
       <line num="2" count="4" type="stmt"/>
       <line num="3" count="4" type="stmt"/>
       <line num="4" count="4" type="stmt"/>
     </file>
-    <file name="dataClass.js" path="H:\Microverse\to-do-list-testing\to-do-list\src\modules\dataClass.js">
-      <metrics statements="22" coveredstatements="17" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="5"/>
+    <file name="dataClass.js" path="/Users/waliddaudzai/Desktop/Books Project Microerse/Vanessa's Project/src/modules/dataClass.js">
+      <metrics statements="21" coveredstatements="16" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="5"/>
       <line num="6" count="8" type="stmt"/>
       <line num="8" count="8" type="cond" truecount="2" falsecount="0"/>
       <line num="9" count="7" type="stmt"/>
@@ -66,13 +66,12 @@
       <line num="38" count="1" type="stmt"/>
       <line num="42" count="1" type="stmt"/>
       <line num="43" count="1" type="stmt"/>
-      <line num="44" count="1" type="stmt"/>
-      <line num="46" count="1" type="stmt"/>
+      <line num="45" count="1" type="stmt"/>
+      <line num="49" count="1" type="stmt"/>
       <line num="50" count="1" type="stmt"/>
-      <line num="51" count="1" type="stmt"/>
-      <line num="53" count="1" type="stmt"/>
+      <line num="52" count="1" type="stmt"/>
     </file>
-    <file name="deleteAllCompleted.js" path="H:\Microverse\to-do-list-testing\to-do-list\src\modules\deleteAllCompleted.js">
+    <file name="deleteAllCompleted.js" path="/Users/waliddaudzai/Desktop/Books Project Microerse/Vanessa's Project/src/modules/deleteAllCompleted.js">
       <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <line num="3" count="1" type="stmt"/>
       <line num="4" count="1" type="stmt"/>
@@ -81,7 +80,7 @@
       <line num="8" count="1" type="stmt"/>
       <line num="10" count="1" type="stmt"/>
     </file>
-    <file name="show.js" path="H:\Microverse\to-do-list-testing\to-do-list\src\modules\show.js">
+    <file name="show.js" path="/Users/waliddaudzai/Desktop/Books Project Microerse/Vanessa's Project/src/modules/show.js">
       <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <line num="7" count="2" type="stmt"/>
       <line num="9" count="4" type="stmt"/>
@@ -89,7 +88,7 @@
       <line num="12" count="4" type="stmt"/>
       <line num="13" count="5" type="stmt"/>
     </file>
-    <file name="taskClass.js" path="H:\Microverse\to-do-list-testing\to-do-list\src\modules\taskClass.js">
+    <file name="taskClass.js" path="/Users/waliddaudzai/Desktop/Books Project Microerse/Vanessa's Project/src/modules/taskClass.js">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="3" count="1" type="stmt"/>
       <line num="4" count="1" type="stmt"/>
