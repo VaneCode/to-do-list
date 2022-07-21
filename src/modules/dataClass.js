@@ -40,7 +40,6 @@ export default class DataClass {
 
   static updateTaskDescriptionData(description, index) {
     const tasks = DataClass.getTasks();
-    console.log(tasks);
     tasks[index].description = description;
     // Local storage
     localStorage.setItem('tasks', JSON.stringify(tasks));
