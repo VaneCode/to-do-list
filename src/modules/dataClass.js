@@ -13,6 +13,9 @@ export default class DataClass {
 
     return tasks;
   }
+  static setTasks(tasks){
+    localStorage.setItem('tasks', JSON.stringify(tasks));
+  }
 
   static addTaskData(description) {
     const tasks = DataClass.getTasks();
